@@ -1,0 +1,93 @@
+
+# ==========================================
+# CODEIGNITER 3 - GITIGNORE
+# ==========================================
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# ==========================================
+# CODEIGNITER RUNTIME FILES
+# ==========================================
+
+# Application Cache
+/application/cache/*
+!/application/cache/index.html
+!/application/cache/.htaccess
+
+# Application Logs
+/application/logs/*
+!/application/logs/index.html
+!/application/logs/.htaccess
+
+# Application Sessions
+/application/sessions/*
+!/application/sessions/index.html
+!/application/sessions/.htaccess
+
+# Preserve CodeIgniter security files
+!application/*/.htaccess
+
+# ==========================================
+# ENVIRONMENT & SENSITIVE FILES
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# Local development configuration
+/application/config/development/
+
+# ==========================================
+# COMPOSER & DEPENDENCIES
+# ==========================================
+
+/vendor/
+
+# ==========================================
+# TESTING FILES
+# ==========================================
+
+.phpunit.result.cache
+tests/mocks/database/ci_test.sqlite
+
+/tests/tests/
+/tests/results/
+
+# ==========================================
+# USER GUIDE BUILD FILES
+# ==========================================
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# ==========================================
+# IDE FILES
+# ==========================================
+
+# NetBeans
+/nbproject/
+
+# PhpStorm / IntelliJ
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
